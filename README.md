@@ -42,7 +42,7 @@
 
 ## 💻 Workspace
 
-<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/workspace-3d.svg" alt="Workspace" width="900" />
+<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/workspace-3d.svg" alt="Workspace" width="900" height="600" />
 
 </div>
 

@@ -1,4 +1,4 @@
-<svg width="900" height="450" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450">
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="deskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1a1f2e;stop-opacity:1" />
@@ -17,6 +17,10 @@
       <stop offset="0%" style="stop-color:#1b2d1b;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#0f1a0f;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="codeEditorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d0d1a;stop-opacity:1" />
+    </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
@@ -34,10 +38,10 @@
   </defs>
   
   <!-- Background Desk -->
-  <rect width="900" height="450" fill="url(#deskGrad)"/>
+  <rect width="900" height="600" fill="url(#deskGrad)"/>
   
   <!-- Desk Surface -->
-  <rect x="0" y="300" width="900" height="150" fill="#2a2a3a" opacity="0.7"/>
+  <rect x="0" y="300" width="900" height="300" fill="#2a2a3a" opacity="0.7"/>
   
   <!-- Laptop 1 - Coding (Left) -->
   <g transform="translate(80, 130)">
@@ -97,6 +101,94 @@
       <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
     </text>
     <text x="110" y="95" font-family="Courier New, monospace" font-size="9" fill="#00d9ff" text-anchor="middle" font-weight="bold">📊 MONITORING</text>
+  </g>
+  
+  <!-- Code Editor - Flask Script (Below) -->
+  <g transform="translate(150, 350)">
+    <!-- Editor Window -->
+    <rect x="0" y="0" width="600" height="230" rx="8" fill="url(#codeEditorGrad)" stroke="#00ff41" stroke-width="2.5" filter="url(#strongGlow)"/>
+    
+    <!-- Editor Title Bar -->
+    <rect x="5" y="5" width="590" height="25" rx="4" fill="#2a2a3a" opacity="0.9"/>
+    <circle cx="20" cy="17" r="5" fill="#ff5f56"/>
+    <circle cx="35" cy="17" r="5" fill="#ffbd2e"/>
+    <circle cx="50" cy="17" r="5" fill="#27c93f"/>
+    <text x="70" y="20" font-family="Courier New, monospace" font-size="10" fill="#00ff41" font-weight="bold">app.py - Flask API Server</text>
+    
+    <!-- Line Numbers -->
+    <rect x="10" y="35" width="30" height="190" fill="#1a1a2a" opacity="0.8"/>
+    <text x="20" y="50" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">1</text>
+    <text x="20" y="65" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">2</text>
+    <text x="20" y="80" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">3</text>
+    <text x="20" y="95" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">4</text>
+    <text x="20" y="110" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">5</text>
+    <text x="20" y="125" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">6</text>
+    <text x="20" y="140" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">7</text>
+    <text x="20" y="155" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">8</text>
+    <text x="20" y="170" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">9</text>
+    <text x="20" y="185" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">10</text>
+    <text x="20" y="200" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">11</text>
+    <text x="20" y="215" font-family="Courier New, monospace" font-size="9" fill="#666" text-anchor="end">12</text>
+    
+    <!-- Flask Code -->
+    <text x="50" y="50" font-family="Courier New, monospace" font-size="9" fill="#ff6b6b">
+      <tspan x="50" y="50">from</tspan>
+      <tspan x="95" y="50" fill="#ffd93d"> flask</tspan>
+      <tspan x="135" y="50" fill="#ffffff"> import Flask, jsonify</tspan>
+    </text>
+    <text x="50" y="65" font-family="Courier New, monospace" font-size="9" fill="#ffffff">
+      <tspan x="50" y="65">from</tspan>
+      <tspan x="85" y="65" fill="#ffd93d"> flask_cors</tspan>
+      <tspan x="155" y="65" fill="#ffffff"> import CORS</tspan>
+    </text>
+    <text x="50" y="80" font-family="Courier New, monospace" font-size="9">
+      <tspan x="50" y="80" fill="#6bcf7f">app</tspan>
+      <tspan x="75" y="80" fill="#ffffff"> = Flask(__name__)</tspan>
+    </text>
+    <text x="50" y="95" font-family="Courier New, monospace" font-size="9">
+      <tspan x="50" y="95" fill="#6bcf7f">CORS</tspan>
+      <tspan x="80" y="95" fill="#ffffff">(app)</tspan>
+    </text>
+    <text x="50" y="110" font-family="Courier New, monospace" font-size="9">
+      <tspan x="50" y="110" fill="#ffd93d">@app.route</tspan>
+      <tspan x="115" y="110" fill="#ffffff">('/api/status', methods=['GET'])</tspan>
+    </text>
+    <text x="50" y="125" font-family="Courier New, monospace" font-size="9">
+      <tspan x="50" y="125" fill="#ff6b6b">def</tspan>
+      <tspan x="80" y="125" fill="#6bcf7f"> get_status</tspan>
+      <tspan x="155" y="125" fill="#ffffff">():</tspan>
+    </text>
+    <text x="60" y="140" font-family="Courier New, monospace" font-size="9">
+      <tspan x="60" y="140" fill="#ff6b6b">return</tspan>
+      <tspan x="115" y="140" fill="#6bcf7f"> jsonify</tspan>
+      <tspan x="165" y="140" fill="#ffffff">({'status': 'active',</tspan>
+    </text>
+    <text x="60" y="155" font-family="Courier New, monospace" font-size="9" fill="#ffffff">
+      <tspan x="60" y="155">                  'service': 'AetherVoid API'})</tspan>
+    </text>
+    <text x="50" y="170" font-family="Courier New, monospace" font-size="9">
+      <tspan x="50" y="170" fill="#ffffff">if</tspan>
+      <tspan x="75" y="170" fill="#ff6b6b"> __name__</tspan>
+      <tspan x="155" y="170" fill="#ffffff"> == '</tspan>
+      <tspan x="200" y="170" fill="#ffd93d">__main__</tspan>
+      <tspan x="270" y="170" fill="#ffffff">':</tspan>
+    </text>
+    <text x="60" y="185" font-family="Courier New, monospace" font-size="9">
+      <tspan x="60" y="185" fill="#6bcf7f">app.run</tspan>
+      <tspan x="110" y="185" fill="#ffffff">(host='0.0.0.0', port=5000, debug=True)</tspan>
+    </text>
+    </text>
+    
+    <!-- Blinking Cursor -->
+    <rect x="290" y="175" width="2" height="12" fill="#00ff41">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Status Indicator -->
+    <circle cx="570" cy="20" r="4" fill="#00ff41" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="580" y="23" font-family="Courier New, monospace" font-size="8" fill="#00ff41">Running</text>
   </g>
   
   <!-- Particle Effects -->
