@@ -26,7 +26,7 @@
   
   <!-- Prompt Lines -->
   <text x="30" y="70" font-family="Courier New, monospace" font-size="13" fill="#00d9ff">┌─[</text>
-  <text x="70" y="70" font-family="Courier New, monospace" font-size="13" fill="#00ff41">maak@vyrnexis</text>
+  <text x="70" y="70" font-family="Courier New, monospace" font-size="13" fill="#00ff41">MK@vyrnexis</text>
   <text x="200" y="70" font-family="Courier New, monospace" font-size="13" fill="#00d9ff">]-[</text>
   <text x="240" y="70" font-family="Courier New, monospace" font-size="13" fill="#ff0080">~/fullstack</text>
   <text x="350" y="70" font-family="Courier New, monospace" font-size="13" fill="#00d9ff">]</text>
