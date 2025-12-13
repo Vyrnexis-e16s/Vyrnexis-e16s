@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Maak&fontSize=60&animation=twinkling&fontColor=fff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=MK&fontSize=60&animation=twinkling&fontColor=fff" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Ethical+Hacker;Cybersecurity+Specialist" />
 
