@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:00d9ff&height=150&section=header&text=MK&fontSize=70&animation=twinkling&fontColor=ffffff&fontAlignY=40" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:00d9ff&height=200&section=header&text=MK&fontSize=80&animation=twinkling&fontColor=ffffff&fontAlignY=45" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Ethical+Hacker;Cybersecurity+Specialist" />
 
-<img src="https://komarev.com/ghpvc/?username=Vyrnexis-e16s&color=00FF41&label=Profile+Views" alt="Profile Views" />
+<a href="https://github.com/Vyrnexis-e16s">
+  <img src="https://komarev.com/ghpvc/?username=Vyrnexis-e16s&color=00FF41&label=Profile+Views&style=for-the-badge" alt="Profile Views" />
+</a>
 
 </div>
 
@@ -92,9 +94,25 @@
 
 <div align="center">
 
-## 📊 Contributions
+## 📊 Development Stats
 
-<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%" />
+```
+╔════════════════════════════════════════════════════════════════╗
+║                    DEVELOPMENT METRICS                         ║
+╠════════════════════════════════════════════════════════════════╣
+║  REPOSITORIES    │  COMMITS     │  PULL REQUESTS  │  ISSUES    ║
+╠════════════════════════════════════════════════════════════════╣
+║  🔹 Public       │  🔹 Total    │  🔹 Merged      │  🔹 Open   ║
+║  🔹 Private      │  🔹 This Year│  🔹 Draft       │  🔹 Closed ║
+║  🔹 Forks        │  🔹 Streak   │  🔹 Reviews     │  🔹 Bugs   ║
+╠════════════════════════════════════════════════════════════════╣
+║  SKILLS LEVEL    │  ACTIVE      │  STATUS         │  PROGRESS  ║
+╠════════════════════════════════════════════════════════════════╣
+║  🟢 Expert       │  🔥 Coding   │  ✅ Online      │  📈 +15%   ║
+║  🟡 Advanced     │  🔥 Hacking  │  ✅ Available   │  📈 +20%   ║
+║  🟢 Professional │  🔥 Learning │  ✅ Active      │  📈 +10%   ║
+╚════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
@@ -105,16 +123,6 @@
 ## 📈 Activity Graph
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vyrnexis-e16s&theme=react-dark&bg_color=0d1117&color=00ff41&line=00ff41&point=00d9ff&hide_border=true&curve=catmullRom" alt="Activity Graph" />
-
-</div>
-
----
-
-<div align="center">
-
-## 🐍 Contribution Snake
-
-<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
 
 </div>
 
@@ -152,6 +160,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:00d9ff&height=150&section=footer&animation=twinkling" />
 
 </div>
