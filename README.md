@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=MK&fontSize=60&animation=twinkling&fontColor=fff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:00d9ff&height=150&section=header&text=MK&fontSize=70&animation=twinkling&fontColor=ffffff&fontAlignY=40" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Ethical+Hacker;Cybersecurity+Specialist" />
 
@@ -42,7 +42,7 @@
 
 ## 💻 Workspace
 
-<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/workspace-3d.svg" alt="Workspace" width="900" height="600" />
+<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/workspace-3d.svg" alt="Workspace" width="900" />
 
 </div>
 
@@ -94,7 +94,7 @@
 
 ## 📊 Contributions
 
-<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%" />
+<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg?username=Vyrnexis-e16s" alt="Contributions" width="100%" />
 
 </div>
 
@@ -114,7 +114,7 @@
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/output/github-contribution-grid-snake.svg)
+<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
 
 </div>
 
