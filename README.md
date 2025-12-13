@@ -94,7 +94,7 @@
 
 ## 📊 Contributions
 
-<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg?username=Vyrnexis-e16s" alt="Contributions" width="100%" />
+<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%" />
 
 </div>
 

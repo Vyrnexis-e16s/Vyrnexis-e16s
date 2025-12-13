@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:  # Allows manual trigger
+  push:
+    branches:
+      - main
 
 jobs:
   generate:
@@ -21,25 +24,21 @@ jobs:
         with:
           github_user_name: Vyrnexis-e16s
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake.svg
           colors: |
             #00ff41
             #00d9ff
             #ff0080
             #ffff00
 
-      - name: Move files to output directory
+      - name: Commit and push
         run: |
-          mkdir -p output
-          if [ -f dist/github-contribution-grid-snake.svg ]; then
-            cp dist/github-contribution-grid-snake.svg output/github-contribution-grid-snake.svg
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/github-contribution-grid-snake.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Generate contribution snake"
+            git push
           fi
-
-      - name: Push files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff --staged --quiet || git commit -m "Generate contribution snake"
-          git push
