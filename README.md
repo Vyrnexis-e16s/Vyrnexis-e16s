@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<img width="240" height="240" src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/clock-3d.svg" alt="Clock" />
+<img width="180" height="180" src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/clock-3d.svg" alt="Clock" />
 
 <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Vyrnexis-e16s&theme=dark&background=0d1117&border=00ff41&ring=00ff41&fire=00ff41" />
 
@@ -32,7 +32,7 @@
 
 ## 🖥️ Terminal Status
 
-<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/terminal-animated.svg" alt="Terminal" width="100%" />
+<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/terminal-animated.svg" alt="Terminal" width="700" />
 
 </div>
 
@@ -42,7 +42,7 @@
 
 ## 💻 Workspace
 
-<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/workspace-3d.svg" alt="Workspace" width="100%" />
+<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/assets/workspace-3d.svg" alt="Workspace" width="900" />
 
 </div>
 
@@ -92,9 +92,9 @@
 
 <div align="center">
 
-## 📊 3D Contributions
+## 📊 Contributions
 
-<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="100%" />
+<img src="https://github-profile-3d-contrib.vercel.app/profile/3d-contrib/profile-night-rainbow.svg" alt="Contributions" width="100%" />
 
 </div>
 
@@ -114,7 +114,7 @@
 
 ## 🐍 Contribution Snake
 
-<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+![Snake animation](https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/output/github-contribution-grid-snake.svg)
 
 </div>
 
