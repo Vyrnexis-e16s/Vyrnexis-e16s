@@ -96,7 +96,7 @@
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/output/github-contribution-grid-snake.svg)
+<img src="https://raw.githubusercontent.com/Vyrnexis-e16s/Vyrnexis-e16s/main/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
 
 </div>
 
